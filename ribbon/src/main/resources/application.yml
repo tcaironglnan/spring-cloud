@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: service-ribbon
+
+server:
+  port: 8763
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: ERROR
+      hibernate: ERROR
+      mybatis: ERROR
+  path: D:/logs/
+  file: ./logs/ribbon.log
