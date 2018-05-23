@@ -1,0 +1,137 @@
+2018-05-23 14:04:32.455  INFO 12016 --- [main] com.server.ServerApplicationTests        : No active profile set, falling back to default profiles: default
+2018-05-23 14:04:33.615  INFO 12016 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6bd77748-23a3-3685-99b3-c9183ca39039
+2018-05-23 14:04:33.698  INFO 12016 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-23 14:04:33.896  INFO 12016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$250f39af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-23 14:04:34.184  WARN 12016 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2018-05-23 14:04:34.191  WARN 12016 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-23 14:04:34.191  INFO 12016 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-23 14:04:34.200  WARN 12016 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-23 14:04:34.200  INFO 12016 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-23 14:04:36.375  INFO 12016 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@63648ee9: startup date [Wed May 23 14:04:32 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@43599640] and template loader path [classpath:/templates/]
+2018-05-23 14:04:36.937  INFO 12016 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-05-23 14:04:36.992  INFO 12016 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-23 14:04:36.993  INFO 12016 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-23 14:04:37.004  INFO 12016 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527055477003 with initial instances count: 0
+2018-05-23 14:04:37.070  INFO 12016 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2018-05-23 14:04:37.073  INFO 12016 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:-1/eureka/]
+2018-05-23 14:04:37.243  INFO 12016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-23 14:04:37.244  INFO 12016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-23 14:04:37.244  INFO 12016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-23 14:04:37.244  INFO 12016 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-23 14:04:37.701  INFO 12016 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:-1/eureka/
+2018-05-23 14:04:37.712  INFO 12016 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2018-05-23 14:04:37.713  INFO 12016 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2018-05-23 14:04:37.880  INFO 12016 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-05-23 14:04:37.893  INFO 12016 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-05-23 14:04:37.894  INFO 12016 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-05-23 14:04:37.895  INFO 12016 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-23 14:04:37.996  INFO 12016 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-05-23 14:04:37.998  INFO 12016 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2018-05-23 14:04:37.999  INFO 12016 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2018-05-23 14:04:37.999  INFO 12016 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2018-05-23 14:04:38.019  INFO 12016 --- [main] com.server.ServerApplicationTests        : Started ServerApplicationTests in 7.313 seconds (JVM running for 8.353)
+2018-05-23 14:04:38.025  INFO 12016 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2018-05-23 14:04:38.025  INFO 12016 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2018-05-23 14:04:38.026  INFO 12016 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2018-05-23 14:04:38.026  INFO 12016 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2018-05-23 14:04:38.026  INFO 12016 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2018-05-23 14:04:38.037  INFO 12016 --- [Thread-13] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2018-05-23 14:04:38.218  INFO 12016 --- [Thread-14] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application unknown with eureka with status DOWN
+2018-05-23 14:04:38.221  INFO 12016 --- [Thread-14] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-05-23 14:04:38.223  INFO 12016 --- [Thread-14] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2018-05-23 14:04:38.229  INFO 12016 --- [Thread-14] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2018-05-23 14:04:38.232  INFO 12016 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-23 14:04:38.232  INFO 12016 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-23 14:24:10.217  INFO 7392 --- [main] com.server.ServerApplicationTests        : No active profile set, falling back to default profiles: default
+2018-05-23 14:24:11.386  INFO 7392 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6bd77748-23a3-3685-99b3-c9183ca39039
+2018-05-23 14:24:11.465  INFO 7392 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-23 14:24:11.705  INFO 7392 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e8bf11aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-23 14:24:12.055  WARN 7392 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2018-05-23 14:24:12.059  WARN 7392 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-23 14:24:12.059  INFO 7392 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-23 14:24:12.066  WARN 7392 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-23 14:24:12.066  INFO 7392 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-23 14:24:14.062  INFO 7392 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@68d6972f: startup date [Wed May 23 14:24:10 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1f81aa00] and template loader path [classpath:/templates/]
+2018-05-23 14:24:14.661  INFO 7392 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-05-23 14:24:14.707  INFO 7392 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-23 14:24:14.709  INFO 7392 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-23 14:24:14.721  INFO 7392 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527056654720 with initial instances count: 0
+2018-05-23 14:24:14.781  INFO 7392 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2018-05-23 14:24:14.784  INFO 7392 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:-1/eureka/]
+2018-05-23 14:24:14.939  INFO 7392 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-23 14:24:14.939  INFO 7392 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-23 14:24:14.939  INFO 7392 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-23 14:24:14.939  INFO 7392 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-23 14:24:15.145  INFO 7392 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:-1/eureka/
+2018-05-23 14:24:15.159  INFO 7392 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2018-05-23 14:24:15.160  INFO 7392 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2018-05-23 14:24:15.334  INFO 7392 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-05-23 14:24:15.365  INFO 7392 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-05-23 14:24:15.366  INFO 7392 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-05-23 14:24:15.367  INFO 7392 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-23 14:24:15.442  INFO 7392 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-05-23 14:24:15.444  INFO 7392 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2018-05-23 14:24:15.445  INFO 7392 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2018-05-23 14:24:15.446  INFO 7392 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2018-05-23 14:24:15.469  INFO 7392 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2018-05-23 14:24:15.469  INFO 7392 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2018-05-23 14:24:15.470  INFO 7392 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2018-05-23 14:24:15.470  INFO 7392 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2018-05-23 14:24:15.470  INFO 7392 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2018-05-23 14:24:15.473  INFO 7392 --- [main] com.server.ServerApplicationTests        : Started ServerApplicationTests in 6.901 seconds (JVM running for 7.892)
+2018-05-23 14:24:15.485  INFO 7392 --- [Thread-13] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2018-05-23 14:24:15.668  INFO 7392 --- [Thread-14] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application unknown with eureka with status DOWN
+2018-05-23 14:24:15.671  INFO 7392 --- [Thread-14] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-05-23 14:24:15.672  INFO 7392 --- [Thread-14] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2018-05-23 14:24:15.676  INFO 7392 --- [Thread-14] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2018-05-23 14:24:15.765  INFO 7392 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-23 14:24:15.766  INFO 7392 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2018-05-23 15:08:59.756  INFO 10188 --- [main] com.server.ServerApplicationTests        : No active profile set, falling back to default profiles: default
+2018-05-23 15:09:01.107  INFO 10188 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=86a75096-2ba3-38cf-a01b-25c10edaf3af
+2018-05-23 15:09:01.289  INFO 10188 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-05-23 15:09:01.440  INFO 10188 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a1458d9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-23 15:09:01.870  WARN 10188 --- [main] o.s.c.n.a.ArchaiusAutoConfiguration      : No spring.application.name found, defaulting to 'application'
+2018-05-23 15:09:01.876  WARN 10188 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-23 15:09:01.877  INFO 10188 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-23 15:09:01.886  WARN 10188 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-05-23 15:09:01.886  INFO 10188 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-05-23 15:09:04.593  INFO 10188 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@3a320ade: startup date [Wed May 23 15:08:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@797b0699] and template loader path [classpath:/templates/]
+2018-05-23 15:09:05.014  INFO 10188 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 93d7b6b0-f6a4-4a84-ba9a-376fb5538a8c
+
+2018-05-23 15:09:05.214  INFO 10188 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cdba2ed, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b57c345, org.springframework.security.web.header.HeaderWriterFilter@8e25d3f, org.springframework.security.web.csrf.CsrfFilter@570ba13, org.springframework.security.web.authentication.logout.LogoutFilter@a85644c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ac6dd3d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6af5b246, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@499ee966, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@902fdbe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e1eb85f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c1f8dbd, org.springframework.security.web.session.SessionManagementFilter@79b18230, org.springframework.security.web.access.ExceptionTranslationFilter@392781e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53aa2fc9]
+2018-05-23 15:09:05.667  INFO 10188 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-05-23 15:09:05.714  INFO 10188 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-05-23 15:09:05.715  INFO 10188 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-05-23 15:09:05.724  INFO 10188 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1527059345723 with initial instances count: 0
+2018-05-23 15:09:05.868  INFO 10188 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2018-05-23 15:09:05.870  INFO 10188 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:-1/eureka/]
+2018-05-23 15:09:06.080  INFO 10188 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-05-23 15:09:06.081  INFO 10188 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-05-23 15:09:06.081  INFO 10188 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-05-23 15:09:06.081  INFO 10188 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-05-23 15:09:06.317  INFO 10188 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:-1/eureka/
+2018-05-23 15:09:06.327  INFO 10188 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2018-05-23 15:09:06.328  INFO 10188 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2018-05-23 15:09:06.505  INFO 10188 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-05-23 15:09:06.518  INFO 10188 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-05-23 15:09:06.519  INFO 10188 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-05-23 15:09:06.521  INFO 10188 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-23 15:09:06.599  INFO 10188 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-05-23 15:09:06.601  INFO 10188 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2018-05-23 15:09:06.601  INFO 10188 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2018-05-23 15:09:06.602  INFO 10188 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2018-05-23 15:09:06.625  INFO 10188 --- [main] com.server.ServerApplicationTests        : Started ServerApplicationTests in 8.681 seconds (JVM running for 9.696)
+2018-05-23 15:09:06.628  INFO 10188 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2018-05-23 15:09:06.629  INFO 10188 --- [Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2018-05-23 15:09:06.629  INFO 10188 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2018-05-23 15:09:06.629  INFO 10188 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2018-05-23 15:09:06.629  INFO 10188 --- [Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2018-05-23 15:09:06.646  INFO 10188 --- [Thread-13] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2018-05-23 15:09:06.909  INFO 10188 --- [Thread-14] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application unknown with eureka with status DOWN
+2018-05-23 15:09:06.918  INFO 10188 --- [Thread-14] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-05-23 15:09:06.919  INFO 10188 --- [Thread-14] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2018-05-23 15:09:06.926  INFO 10188 --- [Thread-14] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2018-05-23 15:09:06.934  INFO 10188 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-05-23 15:09:06.934  INFO 10188 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
