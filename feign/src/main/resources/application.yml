@@ -20,5 +20,5 @@ logging:
         web: ERROR
       hibernate: ERROR
       mybatis: ERROR
-  path: D:/temp/logs/feign.log
+#  path: D:/temp/logs/feign.log
   file: ./logs/feign.log

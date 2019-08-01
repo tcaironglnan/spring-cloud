@@ -1,3 +1,7 @@
+spring:
+  application:
+    name: service-server
+
 server:
   port: 8081
 
@@ -18,5 +22,5 @@ logging:
         web: ERROR
       hibernate: ERROR
       mybatis: ERROR
-  path: D:/logs/server.log
-#  file: ./logs/server.log
+#  path: D:/logs/server.log
+  file: ./logs/server.log
