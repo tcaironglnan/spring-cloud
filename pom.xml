@@ -24,6 +24,8 @@
         <module>zipkin</module>
         <module>zuul</module>
         <module>turbine</module>
+        <module>gateway</module>
+        <module>bus</module>
     </modules>
 
     <properties>
