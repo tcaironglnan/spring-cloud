@@ -2,7 +2,7 @@ spring:
   application:
     name: service-gateway
   zipkin:
-    base-url: http://localhost:8769
+    base-url: http://localhost:8079
   sleuth:
     sampler:
       percentage: 1
@@ -14,7 +14,7 @@ zuul:
       serviceId: service-client
 
 server:
-  port: 8763
+  port: 8075
 
 eureka:
   instance:

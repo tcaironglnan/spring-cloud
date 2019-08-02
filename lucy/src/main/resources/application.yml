@@ -3,7 +3,7 @@ spring:
     name: service-lucy
 
 server:
-  port: 8773
+  port: 8076
 
 eureka:
   instance:

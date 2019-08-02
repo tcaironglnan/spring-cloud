@@ -3,7 +3,7 @@ spring:
     name: service-zipkin
 
 server:
-  port: 8767
+  port: 8079
 
 eureka:
   instance:

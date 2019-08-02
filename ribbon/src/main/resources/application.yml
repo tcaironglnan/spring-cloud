@@ -3,7 +3,7 @@ spring:
     name: service-ribbon
 
 server:
-  port: 8763
+  port: 8077
 
 eureka:
   instance:

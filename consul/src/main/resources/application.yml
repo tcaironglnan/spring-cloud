@@ -1,6 +1,6 @@
 # 配置端口
 server:
-  port: 8775
+  port: 8073
 
 # 配置consul的请求路径和端口,并且配置5s检测一次状态
 spring:
