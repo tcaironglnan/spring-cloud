@@ -1,3 +1,28 @@
+#  1.目录下新建一个bootstrap.properties文件，添加一些配置项。
+#  spring.cloud.config.name=zipkin
+#  spring.cloud.config.discovery.service-id=config
+#  spring.cloud.config.discovery.enabled=true
+#  spring.cloud.config.username=configUser
+#  spring.cloud.config.password=configPassword
+#
+#  eureka.client.serviceUrl.defaultZone=http://discUser:discPassword@localhost:8082/eureka/
+#  在Git仓库里新增zipkin:properties文件，定义服务名称和端口。
+#  spring.application.name=zipkin
+#  server.port=8088
+#  eureka.client.region = default
+#  eureka.client.registryFetchIntervalSeconds=5
+#  logging.level.org.springframework.web=debug
+#  2.book服务配置
+#  spring.zipkin.locator.discovery.enabled=true
+#  spring.zipkin.baseUrl=http://localhost:8088/
+#  spring.sleuth.sampler.percentage=1.0
+#  spring.sleuth.web.skipPattern=(^cleanup.*)
+#  3.gateway服务配置
+#  spring.zipkin.locator.discovery.enabled=true
+#  spring.zipkin.baseUrl=http://localhost:8088/
+#  spring.sleuth.sampler.percentage=1.0
+#  spring.sleuth.web.skipPattern=(^cleanup.*|.+favicon.*)
+
 spring:
   application:
     name: service-zipkin
@@ -11,6 +36,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8081/eureka/
+    region: defualt
+    registry-fetch-interval-seconds: 5
+
 
 logging:
   level:
@@ -18,6 +46,7 @@ logging:
     org:
       springframework:
         web: ERROR
+#        web: debug
       hibernate: ERROR
       mybatis: ERROR
 #  path: D:/temp/logs/zipkin.log

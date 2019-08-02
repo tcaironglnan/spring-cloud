@@ -3,9 +3,14 @@ spring:
     name: service-gateway
   zipkin:
     base-url: http://localhost:8079
+    locator:
+      discovery:
+        enabled: true
   sleuth:
     sampler:
-      percentage: 1
+      probability: 1.0
+    web:
+      skip-pattern: (^cleanup.*)
 
 zuul:
   routes:

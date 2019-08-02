@@ -1,4 +1,4 @@
-package com.turbline;
+package com.turbine;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
