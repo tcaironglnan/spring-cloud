@@ -1,4 +1,4 @@
-package com.cloudfoundry;
+package com.client;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
