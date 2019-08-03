@@ -26,6 +26,9 @@
         <module>turbine</module>
         <module>gateway</module>
         <module>bus</module>
+        <module>archaius</module>
+        <module>cloudfoundry</module>
+        <module>task</module>
     </modules>
 
     <properties>

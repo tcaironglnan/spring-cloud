@@ -1,4 +1,4 @@
-package com.client;
+package com.cloudfoundry;
 
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.SpringApplication;

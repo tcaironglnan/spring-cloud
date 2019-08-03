@@ -49,6 +49,14 @@
     12. server:
         (1) 端口: 8081
         (2) 服务名:  service-server
+           
+    12. archaius:
+        (1) 端口: 8069
+        (2) 服务名:  service-archaius
+            
+    13. archaius:
+        (1) 端口: 8068
+        (2) 服务名:  service-cloudfoundry
 
 # 子项目说明:
     1. client是客户端,可以认为是子服务,用于提供服务.
