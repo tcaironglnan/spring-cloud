@@ -1,0 +1,30 @@
+#  前端登录页面
+#
+#    _csrf.token 这个非常重要   不然源码拦截器中默认会把response的response.isCommitted() 设为true 导致无限返回错误页面
+#    isCommitted 在数据输出前是false   数据输出完成为true
+#    login.ftl 放在templete下面
+spring:
+  application:
+    name: service-security
+
+server:
+  port: 8062
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+
+
+logging:
+  level:
+    root: ERROR
+    org:
+      springframework:
+        web: ERROR
+      hibernate: ERROR
+      mybatis: ERROR
+#  path: D:/temp/logs/security.log
+  file: ./logs/security.log

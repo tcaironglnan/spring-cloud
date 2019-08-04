@@ -27,6 +27,7 @@
         <module>gateway</module>
         <module>bus</module>
         <module>task</module>
+        <module>security</module>
         <module>zookeeper-client</module>
         <module>zookeeper-server</module>
     </modules>
