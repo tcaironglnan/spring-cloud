@@ -1,8 +1,12 @@
 package com.zookeeper;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.context.annotation.ImportResource;
+
+import java.io.IOException;
 
 /**
  * @author Lenovo
@@ -10,9 +14,17 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 //@EnableEurekaClient
 @EnableDiscoveryClient
+@ImportResource({"classpath:spring-dubbo.xml"})
+//@MapperScan("mapper")
 public class ZookeeperServerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ZookeeperServerApplication.class, args);
+        System.out.println("服务端启动成功！！！");
+        try {
+            System.in.read();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
