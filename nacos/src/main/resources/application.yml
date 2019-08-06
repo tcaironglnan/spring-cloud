@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: service-nacos
+  cloud:
+    nacos:
+      discovery:
+        register-enabled: true
+        server-addr: 127.0.0.1:8848  #只能iP+Port，否则会报错
+
+server:
+  port: 8061
+
+logging:
+  level:
+    root: ERROR
+    org:
+      springframework:
+        web: ERROR
+      hibernate: ERROR
+      mybatis: ERROR
+#  path: D:/temp/logs/nacos.log
+  file: ./logs/nacos.log

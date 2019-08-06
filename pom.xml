@@ -36,6 +36,7 @@
         <module>task</module>
         <module>security</module>
         <module>common</module>
+        <module>nacos</module>
         <module>zookeeper-client</module>
         <module>zookeeper-server</module>
     </modules>
