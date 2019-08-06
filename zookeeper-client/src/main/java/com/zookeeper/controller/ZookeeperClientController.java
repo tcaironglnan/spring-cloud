@@ -32,7 +32,7 @@ public class ZookeeperClientController {
     @Reference(version = "1.0.0")
     private CityService cityService;
 
-    @GetMapping("getUser")
+    @GetMapping("/find")
     public List<City> user(){
         System.out.println("进来了！！！！！！！！！！！！！！！！");
         System.out.println(cityService.hashCode()+"!!!!!!!!!!!!!!!!");

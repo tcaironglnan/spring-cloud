@@ -1,7 +1,6 @@
 package com.common.model;
 
 import com.google.common.base.MoreObjects;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
