@@ -6,16 +6,25 @@
 spring:
   application:
     name: service-security
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/world?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=true&autoReconnect=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+security:
+  basic:
+    enabled: false
 
 server:
   port: 8062
 
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://localhost:8081/eureka/
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8081/eureka/
 
 
 logging:

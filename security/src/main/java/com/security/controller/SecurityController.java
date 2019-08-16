@@ -1,6 +1,9 @@
 package com.security.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -15,6 +18,15 @@ import java.util.Map;
  **/
 @RestController
 public class SecurityController {
+
+    private static final Logger log = LoggerFactory.getLogger(SecurityController.class);
+
+    @RequestMapping("/oauth/error")
+    public String error(@RequestParam Map<String, String> parameters){
+        String url = parameters.get("redirect_uri");
+        log.info("重定向: {}", url);
+        return "redirect:" + url + "?error=1";
+    }
 
     @RequestMapping("/add")
     public ModelAndView add(HttpServletRequest request, HttpServletResponse response){
